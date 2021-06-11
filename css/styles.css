@@ -14,16 +14,27 @@ p {
 
   .content {
     padding:10px 0 5px 20px;
+   
     text-align: left;
    background-image: url("../images/joe-woods-4Zaq5xY5M_c-unsplash.jpg");
     
   }
+  #main {
+    margin:15%;
+    margin-top: -0.5px;
+}
+#main:after{
+    content:'';
+    display:block;
+    clear:both;
+}
 footer {
     background-color:#e9ecef;
     padding: 15px  25px;
     text-align: right;
     color: white;
-    margin-top: -26px;
+    margin-top: -226px;
+    height:240px;
   }
   a{
       color: black;
